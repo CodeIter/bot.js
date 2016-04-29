@@ -10,7 +10,12 @@ Now lets write simple bot!
 ```js 
 'use strict'
 
-var tg = require('telegram-node-bot')('YOUR_TOKEN')
+const APPNAME='mybot'
+const NAMESPACE='tg'
+const API_PATH='/json/telegram/'
+const BOT_TOKEN=''
+const BOT_WEBHOOK='https://'+APPNAME+'-'+NAMESPACE+'.rhcloud.com/'+API_PATH
+var tg = require('telegram-node-bot')(BOT_TOKEN,BOT_WEBHOOK)
 
 tg.router.
     when(['ping'], 'PingController')
