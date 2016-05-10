@@ -1,16 +1,12 @@
 {
   "name": "telegram-node-bot",
   "version": "2.1.2",
-  "description": "Modile for creating Telegram bots.",
-  "main": "lib/telegram.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Naltox/telegram-node-bot.git"
-  },
+  "description": "Module for creating Telegram bots.",
   "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift",
     "telegram",
     "bot",
     "API"
@@ -18,10 +14,23 @@
   "author": "Narek Abovyan <xeroxaltox@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Naltox/telegram-bot/issues"
+    "url": "https://github.com/Naltox/telegram-node-bot/issues"
   },
-  "homepage": "https://github.com/Naltox/telegram-node-bot",
+  "homepage": "https://github.com/Naltox/telegram-node-bot.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Naltox/telegram-node-bot.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
   "dependencies": {
-    "tiny_request": "latest"
-  }
+    "tiny_request": "^1.0.8"
+  },
+  "devDependencies": {},
+  "bundleDependencies": []
 }
